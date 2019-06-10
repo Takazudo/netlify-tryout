@@ -1,0 +1,25 @@
+{
+  "name": "bbbbb",
+  "version": "1.0.0",
+  "description": "ohmygod",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:sass && npm run copy",
+    "build:sass": "node-sass ./src/style.scss ./dist/style.css",
+    "copy": "cpx \"./src/*.html\" \"./dist\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Takazudo/netlify-tryout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Takazudo/netlify-tryout/issues"
+  },
+  "homepage": "https://github.com/Takazudo/netlify-tryout#readme",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "node-sass": "^4.12.0"
+  }
+}
